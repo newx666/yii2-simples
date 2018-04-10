@@ -1,0 +1,33 @@
+.image-list-wrapper .image-item {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.image-list-wrapper .image-item .open-image {
+  cursor: zoom-in;
+}
+.image-list-wrapper .image-item .header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+}
+.image-list-wrapper .image-item .header .control {
+  margin: 3px;
+}
+.image-list-wrapper .image-item .header.checked {
+  opacity: 0.9;
+}
+.image-list-wrapper .image-item .header:hover {
+  opacity: 1;
+}
+.image-list-wrapper .image-item .header:active {
+  cursor: move;
+}

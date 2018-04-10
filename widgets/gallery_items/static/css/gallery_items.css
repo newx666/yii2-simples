@@ -1,0 +1,30 @@
+.gallery-items-wrapper .multi-actions {
+  margin-bottom: 5px;
+}
+.gallery-items-wrapper .image-item {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.gallery-items-wrapper .image-item .header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+}
+.gallery-items-wrapper .image-item .header .control {
+  margin: 3px;
+}
+.gallery-items-wrapper .image-item .header:hover {
+  opacity: 1;
+}
+.gallery-items-wrapper .image-item .header:active {
+  cursor: move;
+}
